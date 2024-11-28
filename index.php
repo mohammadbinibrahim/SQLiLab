@@ -1,8 +1,4 @@
-<?php
-    // Enable error reporting to debug issues
-    ini_set('display_errors', 1);
-    error_reporting(E_ALL);
-    
+<?php    
     // Database connection
     $host = 'localhost';
     $username = ''; // your mysqli's username

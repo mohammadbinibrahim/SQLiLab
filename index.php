@@ -28,7 +28,7 @@
         <div id='mainsearch'>
             <p class='main'>Search for people!</p>
             <form action='index.php' method='GET'>
-                <input type='text' required id='inputfield' name='searchedperson'>
+                <input type='text' id='inputfield' name='searchedperson'>
                 <br>
                 <input type='submit' id='submitbutton' value='Search!'>
             </form>

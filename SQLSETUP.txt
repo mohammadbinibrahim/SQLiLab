@@ -1,0 +1,5 @@
+USE {database_name};
+CREATE TABLE people (name VARCHAR(255), age INT(2), job VARCHAR(255));
+CREATE TABLE flags (flag_name VARCHAR(50), value VARCHAR(50));
+INSERT INTO people (name, age, job) VALUES ('Mohammad', 99, 'Whatever');
+INSERT INTO flags (flag_name, value) VALUES ('flag', 'SQL_1nj3ct10n');

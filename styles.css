@@ -1,0 +1,38 @@
+#mainsearch{
+	font-size: 65px;
+	text-align: center;
+	position: relative;
+	top: 260px;
+}
+#inputfield{
+	text-align: center;
+	font-size: 40px;
+	width: 80%;
+}
+.main{
+	display: inline;
+	background-color: black;
+	border: none;
+	padding: 4px 6px;
+	color: red;
+	transition: text-shadow .9s ease, box-shadow 0.9s ease;
+}
+.main:hover{
+	text-shadow: -10px -10px 20px darkred;
+	box-shadow: -20px -12px 0px darkred;
+}
+#submitbutton{
+	font-size: 30px;
+	background-color: black;
+	color: red;
+	transition: text-shadow 2s ease, box-shadow .9s ease;
+}
+#submitbutton:hover{
+	text-shadow: -10px -10px 20px darkred;
+	box-shadow: 20px 12px 0px darkred;
+}
+#output{
+	text-align: center;
+	font-size: 60px;
+	font-family: monospace;
+}

@@ -1,0 +1,5 @@
+In linux:
+  1. move the directory to "/var/www/html"
+  2. make sure apache2 or nginx is working
+  3. open the browser at "localhost/SQLiLab"
+  4. enjoy hacking!
